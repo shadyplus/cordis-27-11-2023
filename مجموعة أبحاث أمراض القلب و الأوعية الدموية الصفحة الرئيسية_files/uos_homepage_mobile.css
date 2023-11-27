@@ -1,0 +1,225 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+/**/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	/*#ms-designer-ribbon {	display:none;}*/
+	#ms-designer-ribbon .o365cs-nav-leftAlign {	display:none;}
+
+	.bs-site-alert .close { padding: 10px 0;    margin: 0;    min-width: 1.5em;}
+	.header__content { padding: 20px 0px 0px;}
+	.alert-dismissible .close {	right:auto;	left:0;	padding: 10px 0;    margin: 0;    min-width: 1.5em;}
+	.logo__uos,.logo__uos a, .logo__uos img {display: block;margin: auto;}
+	.logo__uos{margin-bottom: 30px;width: inherit;}
+	.nav__topIcon {text-align: center;float: none !important;margin-bottom: 20px;}
+	.nav__topIcon a {    vertical-align: middle !important;    line-height: 36px;}
+	/*.nav__topIcon a>svg {    margin-top: 14px;}*/
+	.nav__top2Links {    display: block;    text-align: center;}
+	.nav__top2Links li{display: inline-block;    margin: 0;    padding: 0;    line-height: 18px;    letter-spacing: .7px;}
+	.nav__top2Links li:after {content: ''}
+	.navbar-nav p { padding: 0 20px;}
+	.breadcrumb,.brdcrmb-container {	display:none!important;}
+	#s4-bodyContainer > div:nth-child(2) > div > div > div.col-xs-12.col-sm-10.float-right > div > div.btn-group > div.btn-group > div > a{	padding:0 !important;}
+	.clg-menu-list>div>ul > li > a {    padding-right: 30px;}
+	.header__navigation {    padding: 1px;    opacity: 0.6;}
+	.card__content{border-bottom: solid 1px #d1e2aa;    margin-top: 0px !important;    padding-bottom: 20px;border-right:0;}
+	.event__title, .event__block {width: 100%;    float: none;    border-left: none!important;    border-bottom: solid 1px #d1e2aa;}
+	.event__block:not(:nth-of-type(5)) {    border-bottom: solid 1px #d1e2aa;}
+	.event__dates div {display: inline-block;width: 30%;}
+	.event__dates div:nth-child(2) {vertical-align: top;    margin-bottom: 50px;}
+	.link__box__card{border-right: 0;border-bottom: solid 1px #8da25d;border-top: solid 1px #aec184;min-height: 80px;}
+	.FnF__content-details span:nth-child(1), .FnF__content-details span:nth-child(2) {font-size:150%;}
+	.newsletter__form {width: 90%;}
+	.footer__content {    padding: 30px 0px;}
+	.backToTop {display: none;}
+	.footer__logo img {margin: auto;    display: block; margin-bottom: 30px;}
+	.footer__navTxt {margin: 30px 0 0 0;text-align: center !important;padding:0;}
+	.footer__navTxt a {font-size: .75em;    margin: 0 10px 0 0;}
+	.footer__cpoyrightTxt {text-align: center; float: left; position: relative;}
+	.footer__cpoyrightTxt span {display: block; width:100%;text-align:center;}
+	.footer__cpoyrightTxt:before {    content: '';    background-color: rgba(132, 189, 0,1);    height: 1px;    width: 90%;    display: block;    position: absolute;    top: 20px;}
+	.footer__navIcons {margin-left: 0; float: left!important;margin: auto;display: block;text-align: center;width: inherit;}
+	.FnF__white_txt--center, h1,.view__more__link, .FnF__content-details {    zoom: 71%;}
+	.FnF__panel__Title {    min-height: 150px;}
+	.skew-menu ul li a {    zoom: 94%;}
+
+
+/************** UOS-BUNDLE.min.CSS RESET *******************************/
+	.navbar-collapse {
+		position: initial;
+		background:transparent;
+	}
+
+
+/***** INNER PAGES TOP-NAVIGATION *****/
+	.inner__navigaton>div>div>div>ul>li>ul>li>a:after {
+		content:none!important;
+	}
+	.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+	    margin: 10px 0!important;
+	}
+
+/************INNER NEWS LIST GRID *********************/
+
+	.news__grid.row>div, .news__grid.row>div>table, .news__grid.row>div>table>tbody {
+		display:grid!important;
+		margin-left: 0;
+	    margin-right: 0;
+	}
+	.card__content:nth-of-type(4) {
+		border-right:0!important;
+	}
+	.event__blockConf, .eventConfGrid__list>tbody>tr>td {
+		border-left: 0;
+	}
+	.event__desc {
+		padding-right:0!important;
+		padding-top:20px;
+	}
+
+
+
+
+
+/*RESEARCH NAVIGATION*/
+	#menu li, .clg-menu-list li {
+	    width: 100%;
+	    text-align: RIGHT!important;
+	    border-bottom: solid 1px rgba(217,217,218,.1)!important;
+	}
+	.navbar-collapse {
+		margin:0 15px;
+	}
+	.clg-menu-list>div>ul > li > ul > li > span > span > span, .clg-menu-list>div>ul > li > ul > li > a > span > span {
+		line-height: 30px;
+	}
+	.clg-menu-list>div>ul > li > a {
+	    margin-right: 20px;
+	}
+
+/************ COLLEGES MOBILE NAVIGATION  *********** STRAT **********/
+
+	.CSite-NavTitle {
+		display:flex;
+		flex-direction: row-reverse;
+	}
+	.CSite-NavTitle .swchLngo {
+		color: #666;
+	    padding: 0 10px;
+	    line-height: .9;
+	    float: left;
+	    font-size: 24px !important;
+	}
+	.CSite-NavTitle>span {
+		text-align: center;
+	    margin: 0 0 20px 0;
+	    padding: 0;
+	}
+	.navbar {
+		min-height:0;
+	}
+	.sideNavigation {
+		top: 50px;
+		font-size: 16px;
+	    font-weight: 100;
+	    position: absolute;
+	    width: 100%;
+	    background-color: #fff;
+	    z-index: 999;
+	    padding: 15px 10px;
+	    -moz-box-shadow: 1px 1px 3px 0 rgba(0,0,0,.2);
+	    -webkit-box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 20%);
+	    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 20%);
+	}
+	.sideNavigation td a img {
+	    width: 80%;
+	    margin: 0 0 10px 0;
+	}
+	.applyNowbtn {
+	    background-color: #84BD00 !important;
+	    box-shadow:none;
+	    position:relative !important;
+	    right: 0;
+	    z-index: 999;
+	    top:auto !important;
+	    font-weight: 900;
+	    text-align: center;
+    	color: #fff;
+	}
+	.applyNowbtn:focus,.applyNowbtn:active  {
+	    background-color: #a6de25;
+	    color: #fff;
+	}
+
+/************ COLLEGES MOBILE NAVIGATION  *********** END **********/
+
+
+
+/* **************** administration department grid ************************ */
+
+	.Colg_Grid1 li {
+		-ms-flex: 0 0 100%!important;
+	    flex: 0 0 100%!important;
+	    max-width: 100%!important;
+	    border-left:0;
+   }
+   .row.strtgy-page img {
+	    width: 100%;
+	}
+
+/******************* content editor  ********************/
+	.DCContentBlock {  margin-bottom: 0; padding-bottom:0;}
+	.DCContentBlock>div.row>div>img {    width: 100%!important;    margin: 10px 0 !important;}
+
+/************************* BANNER ****************************************/
+
+a.carousel-control-next>span:after, a.carousel-control-prev>span:after {
+    width: 30px;
+    height: 30px;
+    top: -5px;
+    left: -5px;
+}
+
+/*********************************************************** END ******/
+
+/*********************** OUR PEOPLE GRID NEW STYLE ******************************** Starts *****/
+
+.our-ppl-tab {
+	display: grid;
+}
+.ppl-photo {
+	display:block !important;
+}
+.pplProfileGrid tr {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    padding: 15px;
+    display: grid !important;
+    padding: 0 !important;
+    width:100%;
+}
+.pplProfileGrid tr:nth-child(3n+2) {
+     padding-left: inherit !important;
+     padding-right: inherit !important;
+}
+
+/*********************** OUR PEOPLE GRID NEW STYLE ******************************** Ends *****/
+
+
+
+}
+
+
+
+@media (min-device-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1.8rem;
+	    padding-left: 1.8rem;
+	}
+}
+
+

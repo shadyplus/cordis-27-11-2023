@@ -1,0 +1,336 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    
+}
+
+.logo__uos a, .logo__uos img {
+    display:inline-block;
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+    width: 160px;
+}
+.brdcrmb-container {
+	box-shadow:none;
+}
+.sideNavigation table tbody tr td {
+	margin-bottom: 1rem;
+}
+.blockTitleBoxGreen:after{
+	content:none;
+}
+
+/* ****************** Top Navigation ************************************ */
+
+/* **************** BREADCRUMB ************************ */
+.brdcrmb-container {
+	margin-top:auto;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 1rem!important;
+    list-style: none;
+    background-color: #f9f9f9!important;
+    border-radius: .25rem;
+    font-size:14px;
+    width:100%;
+}
+.clg_title:after, .evnt_title1:after {
+	content:none;
+}
+ul.breadcrumb li {
+    list-style: none;
+    display: inline-block;
+}
+ul.breadcrumb li span.s4-breadcrumb-arrowcont {
+    display: none;
+}
+ul.breadcrumb > li:nth-child(1) > a {
+    display: none;
+}
+ul.breadcrumb li ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+ul.breadcrumb li a {
+    display: inline-block;
+    color: #444;
+}
+ul.breadcrumb li a:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+    margin-left: 5px;
+}
+ul.breadcrumb li span.active:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+    margin-left: 5px;
+}
+.brdcrmb-container > div > div > div > ul > li > ul > li > a:before {
+	content:none;
+}
+
+
+/* **************** administration department grid ************************ */
+.Colg_Grid1 {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    list-style:none;
+}
+.Colg_Grid1 li {
+	-ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    display:block;
+    border-left: solid 1px #d1e2aa;
+    border-right:0
+}
+.Colg_Grid1 li:nth-of-type(4n+4), .Colg_Grid1 li:last-child{
+	border-left: none;
+}
+.slick_clg1 {
+    position: relative;
+    border: solid 1px transparent;
+}
+.slick_clg1>img {
+    width: 100%;
+    height: 100%;
+}
+.slick_clg1>img:before {
+    overflow: hidden;
+    position: relative;
+    min-height: 200px;
+    display: block;
+    width: 100%;
+    content: '';
+}
+.Colg_Grid1>li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Colg_Grid1>li>span {
+	display:none;
+}
+.Colg_Grid1>li:before {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(209, 226, 170, .3);
+    margin-top: 20px;
+    background-size: 1px;
+    bottom: -20px;
+    position: absolute;
+}
+.clg_cnt>h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #84BD00;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+.clg_cnt .line-clamp-4 {
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.clg_cnt .details {
+    display: inline-block;
+    width: 150px;
+    height: 46px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+.clg_cnt .details:hover {
+    color: #84BD00;
+    border-color: #84BD00;
+}
+
+
+
+/* Inner top navigation for departments */
+
+
+
+
+.clg-menu-list>a {
+    display: none!important;
+}
+.clg-menu-list>div>ul > li > ul > li > span > span > span, .clg-menu-list>div>ul > li > ul > li > a > span > span {
+	color:#fff;
+	font-weight:100;
+}
+.clg-menu-list>div>ul > li > a {
+	display: inline-block;
+    /* text-indent: -100%; */
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    height: 56px;
+    position: relative;
+    color: #fff !important;
+}
+h1
+{
+
+    color: gold !important;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 20px;
+}
+.clg-menu-list>div>ul > li > a:before {
+	font: normal normal normal 14px/1 FontAwesome;
+    content: '\f015';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+.clg-menu-list {
+  float: right
+}
+.clg-menu-list li {
+  background: transparent /*url(../images/clg-top-nav-bg.png) right 10px no-repeat*/;
+  float: right
+}
+.clg-menu-list a, .clg-menu-list span.ms-core-listMenu-item {
+  color: #333 !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 55px;
+  padding: 0 20px;
+  display: block;
+  letter-spacing: 0;
+  margin-top: 8px
+}
+.ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+  margin: 0;
+  background-image: none;
+  padding-left: 0
+}
+.clg-menu-list ul.dynamic {
+  background-color: rgba(255, 255, 255, .9);
+  border: 0;
+  list-style: none;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  padding: 0;
+  width: 100% !important;
+  width: -moz-fit-content !important;
+  width: -webkit-fit-content !important;
+  display: table;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .47) !important
+}
+.clg-menu-list ul.dynamic li {
+  background: 0 0;
+  display: table;
+  width: 100%
+}
+.clg-menu-list ul.dynamic li a {
+  margin: 0;
+  padding: 8px;
+  line-height: 36px;
+  padding: 5px 10px;
+  border-bottom: solid 1px #ccc
+}
+.clg-menu-list a:hover, .clg-menu-list span.ms-core-listMenu-item:hover, .clg-menu-list ul.dynamic li:hover {
+  background-color: rgba(0, 195, 137, .5) !important
+}
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+
+	.ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li, .ms-core-listMenu-horizontalBox .ms-core-listMenu-item, .ms-core-listMenu-horizontalBox > ul > li > table {
+	    display: block;
+	    border-bottom: 1px solid #f5f5f5;
+	}
+	.Colg_Grid1 {
+	    margin: 0;
+	    padding: 0;
+	    max-width: 100%;
+	    width: 100%;
+	    display: block;
+	}
+	.Colg_Grid1 li {
+		width: 100%;
+	    max-width: 100%;
+	    flex: 0 0 100%;
+	}
+	.Colg_Grid1 li{
+		border-right:0;
+	}
+	.Colg_Grid1>li {
+	    margin-top: 40px;
+	    margin-bottom: 40px;
+	}
+	.CSite-NavTitle .swchLngo {
+		display:none !important;
+	}
+	.sideNavigation {
+	    margin-top: 80px;
+	}
+	.wrap-collabsible{
+		float:left;
+		width:100%;
+		display:block;
+	}
+	.nav__topIcon .btn-group {
+		margin: 0 auto;
+	    display: flex;
+	    width: fit-content
+	}
+	.CSite-NavTitle .swchLngo {
+		display:none;
+	}
+
+
+}
